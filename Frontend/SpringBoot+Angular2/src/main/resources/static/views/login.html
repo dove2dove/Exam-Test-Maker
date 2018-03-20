@@ -1,0 +1,10 @@
+	<div>
+		<h2>{{loginParam.headingTitle}}</h2>
+		<p>{{loginParam.Parameter.content}}</p>
+		<form class="login-form" name="loginForm" ng-submit="UserAuthentication()">
+			<h2>Login</h2>
+			User Name : <input type="text" id="userName" class="form-control" name="userName" required ng-model="userName" /><br>
+			Password  : <input type="password" id="userPassword" class="form-control" name="userPassword" required ng-model="userPassword" /><br>
+			<button type="submit">Login</button>
+		</form>
+	</div>
